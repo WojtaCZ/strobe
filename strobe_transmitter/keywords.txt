@@ -1,0 +1,4 @@
+StrobeTransmitter	KEYWORD1
+end		KEYWORD2
+transmit	KEYWORD2
+transmitReady	KEYWORD2
