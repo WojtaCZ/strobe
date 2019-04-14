@@ -18,4 +18,4 @@
 | ```uint8_t receivedReady();``` | Signalizes whether new data is ready (gets cleared after readData() is called)  | 0,1 |
 
 
-* Frame ty is in range of 0 to 7
+* Frame type is in range of 0 to 7 (3bits)
