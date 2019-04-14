@@ -1,17 +1,17 @@
 #include <StrobeReceiver.h>
 
 //Initialize receiver on pin 2
-//StrobeReceiver receiver(2);
+StrobeReceiver receiver(2);
 
 void setup() {
-  /*//Begin serial for debugging
+  //Begin serial for debugging
   Serial.begin(9600);
   //Setup the receiver at 5bps (bits per second)
-  receiver.begin(5);*/
+  receiver.begin(5);
 }
 
 void loop() {
-  /*//If the system received some data
+  //If the system received some data
   if(receiver.receivedReady()){
     //Create storage variables
     uint8_t frameType;
@@ -28,5 +28,4 @@ void loop() {
     Serial.println();
     Serial.println();
   }
-  */
 }
